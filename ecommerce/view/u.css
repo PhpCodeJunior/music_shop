@@ -1,0 +1,148 @@
+body{
+    font-family: 'Galindo', cursive;color: brown;background-image: url('../images/rock.jpg')
+}
+#container{
+    border-radius:10px;
+    border:2px solid sandybrown;background: linear-gradient(green,yellow,red);
+}
+.carousel-indicators li{
+    background-color: black;
+}
+.slide_img {
+    width: 100%;
+    height: 310px;
+}
+#forgot_pass{
+
+    position: relative;
+    top: 60px;
+}
+
+.images_cart{
+    width: 50px;height: 50px;
+}
+.images_pay{
+    width: 250px;height: 100px;
+    position: relative;
+    top: 30px;
+}
+#footer_ground{
+    border-top: 2px solid darkkhaki;
+    background: linear-gradient(-90deg, black, gainsboro);
+}
+#footer_bottom{
+    background-color: black;
+    text-align: center;color: white;
+}
+#footer_bottom p{
+    text-align: center;color: white;
+}
+.advanced_find_h{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px blue;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    *{
+
+    }
+    #forgot_pass{
+        position: relative;
+        top: 30px;
+    }
+    #forgot{
+        color: black;
+    }
+
+    #find{
+        display:inline!important;
+        position: absolute;
+        top: 30px;
+    }
+
+    #nav ul li{
+        display: inline;
+
+    }
+    #nav{
+        position: relative;
+        top:10px;
+        width: 100%;
+        margin: 103px 40px 14px -3px;
+
+    }
+    #session{
+        position: relative;
+        right: -105px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #find{
+        display:inline!important;
+        position: relative;
+        top: 91px;
+    }
+    #nav ul li{
+        display: inline;
+
+    }
+    #nav{
+        width: 100%;
+        margin: 103px 40px 14px -3px;
+    }
+    #session{
+        position: relative;
+        right: -105px;
+    }
+    #forgot_pass{
+        position: relative;
+        top: 30px;
+    }
+    #forgot{
+        color: black;
+    }
+#wish_list_submit{
+    width: 50px;
+}
+
+}
+@media (min-width: 768px) and (max-width: 1324px) {
+
+    #find{
+        display:inline-block;
+        position: relative;
+        left: -200px;
+        bottom: -80px;
+    }
+    #nav ul li{
+        display: inline;
+
+    }
+    #cart_wish{
+        position: relative;
+        right: 50px;
+        bottom: -115px;
+    }
+    #nav{
+        width: 100%;
+        margin: 103px 40px 14px -3px;
+    }
+    #session{
+        position: relative;
+        left: -170px;
+
+        bottom: 30px;
+
+    }
+    #forgot_pass{
+        position: relative;
+        top: 90px;
+    }
+    #forgot{
+        color: black;
+    }
+    #music_band{
+        width: 50%;
+    }
+}
